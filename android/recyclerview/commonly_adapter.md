@@ -50,3 +50,4 @@ java8都推出这么多年了在Android上到现在还没有完全推广开来�
 # 加油！！！努力的人最帅！
 # link
 [作者](https://github.com/j1046697411)  
+[CommonlyAdapter 实现过程中的源码](https://github.com/j1046697411/blogs/tree/master/android/CommonlyAdapterBlogs)  
