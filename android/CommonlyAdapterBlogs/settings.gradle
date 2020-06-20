@@ -1,0 +1,3 @@
+include ':library-no1'
+include ':app'
+rootProject.name = "CommonlyAdapterBlogs"
