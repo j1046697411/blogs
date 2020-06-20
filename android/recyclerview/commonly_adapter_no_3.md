@@ -218,7 +218,7 @@ public class ViewBinder implements ViewFinder {
 ### 2、优化数据更新
 
 
-#加油！！！努力的人最帅！
+# 加油！！！努力的人最帅！
 
 ## link
 [作者](https://github.com/j1046697411)  

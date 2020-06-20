@@ -318,7 +318,7 @@ public class Observable<T> {
 也算完成了把，至于`适配java8的lambda语法`和`引进java流行的链式编程`就更不用说了，使用过程中正好。
 #### 码了一天的字了，谢谢大家看
 
-#加油！！！努力的人最帅！
+# 加油！！！努力的人最帅！
 # link
 [作者](https://github.com/j1046697411)  
 [CommonlyAdapter系列文章](commonly_adapter.md)  

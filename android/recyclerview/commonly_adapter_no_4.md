@@ -459,7 +459,7 @@ public class ListDataProvider<T> implements DataProvider<T>, Provider<List<T>> {
 ### 1、我本就很累，为什么还需要做这么多事？ Configurator 的到来，为我分担任务
 ### 2、添加更多的事件回调，让我们掌握全局。
 
-#加油！！！努力的人最帅！
+# 加油！！！努力的人最帅！
 # link
 [作者](https://github.com/j1046697411)  
 [CommonlyAdapter系列文章](commonly_adapter.md)  

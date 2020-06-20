@@ -210,7 +210,7 @@ public class CommonlyAdapter<T, VH extends RecyclerView.ViewHolder> extends Recy
 ### 1、插件的出现，终于可以不用在重复编写代码了
 ### 2、使得适配器内的属性在外部跟容易获取
 
-#加油！！！努力的人最帅！
+# 加油！！！努力的人最帅！
 # link
 [作者](https://github.com/j1046697411)  
 [CommonlyAdapter系列文章](commonly_adapter.md)  

@@ -47,6 +47,6 @@ java8都推出这么多年了在Android上到现在还没有完全推广开来�
 ### 5、[第五步，我本就很累，为什么还需要做这么多事？ Configurator 的到来，为我分担任务](commonly_adapter_no_5.md)
 ### 6、[第六步，插件的出现，终于可以不用在重复编写代码了](commonly_adapter_no_6.md)
 
-#加油！！！努力的人最帅！
+# 加油！！！努力的人最帅！
 # link
 [作者](https://github.com/j1046697411)  
