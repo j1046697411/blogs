@@ -102,11 +102,11 @@ public class Configurator<T, VH extends RecyclerView.ViewHolder> {
         recyclerView.setLayoutManager(layoutManager);
     }
 
-    public static <T, VH extends RecyclerView.ViewHolder> Configurator<T, VH> of(ViewHolderFactory<VH> viewHolderFactory){
+    public static <T, VH extends RecyclerView.ViewHolder> Configurator<T, VH> of(ViewHolderFactory<VH> viewHolderFactory) {
         return new Configurator<>(viewHolderFactory);
     }
 
-    public static <T> Configurator<T, CommonlyViewHolder> of(){
+    public static <T> Configurator<T, CommonlyViewHolder> of() {
         return of((itemView, viewType) -> new CommonlyViewHolder(itemView));
     }
 

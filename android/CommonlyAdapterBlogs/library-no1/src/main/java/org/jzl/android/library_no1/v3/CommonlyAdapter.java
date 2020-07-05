@@ -59,12 +59,12 @@ public class CommonlyAdapter<T, VH extends RecyclerView.ViewHolder> extends Recy
         return this;
     }
 
-    public void bind(RecyclerView recyclerView, RecyclerView.LayoutManager layoutManager){
+    public void bind(RecyclerView recyclerView, RecyclerView.LayoutManager layoutManager) {
         recyclerView.setAdapter(this);
         recyclerView.setLayoutManager(layoutManager);
     }
 
-    public static <T, VH extends RecyclerView.ViewHolder> CommonlyAdapter<T, VH> of(Context context, List<T> data){
+    public static <T, VH extends RecyclerView.ViewHolder> CommonlyAdapter<T, VH> of(Context context, List<T> data) {
         return new CommonlyAdapter<>(context, data);
     }
 }

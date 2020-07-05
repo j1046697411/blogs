@@ -56,7 +56,7 @@ public class CommonlyAdapter<T, VH extends RecyclerView.ViewHolder> extends Recy
     @Override
     public void onAttachedToRecyclerView(@NonNull RecyclerView recyclerView) {
         super.onAttachedToRecyclerView(recyclerView);
-        if (ObjectUtils.nonNull(attachedToRecyclerViewListener)){
+        if (ObjectUtils.nonNull(attachedToRecyclerViewListener)) {
             attachedToRecyclerViewListener.onAttachedToRecyclerView(contextProvider, this, recyclerView);
         }
     }
@@ -64,7 +64,7 @@ public class CommonlyAdapter<T, VH extends RecyclerView.ViewHolder> extends Recy
     @Override
     public void onViewAttachedToWindow(@NonNull VH holder) {
         super.onViewAttachedToWindow(holder);
-        if (ObjectUtils.nonNull(viewAttachedToWindowListener)){
+        if (ObjectUtils.nonNull(viewAttachedToWindowListener)) {
             viewAttachedToWindowListener.onViewAttachedToWindow(holder);
         }
     }
@@ -75,7 +75,7 @@ public class CommonlyAdapter<T, VH extends RecyclerView.ViewHolder> extends Recy
         ItemViewFactory factory = itemViewFactories.getObserver(viewType);
         ObjectUtils.requireNonNull(factory, "itemViewFactory");
         VH holder = viewHolderFactory.createViewHolder(factory.createItemView(layoutInflater, parent), viewType);
-        if (ObjectUtils.nonNull(createdViewHolderListener)){
+        if (ObjectUtils.nonNull(createdViewHolderListener)) {
             createdViewHolderListener.onCreatedViewHolder(holder);
         }
         return holder;

@@ -10,10 +10,10 @@ import org.jzl.android.library_no1.R;
 
 public class CommonlyViewHolder extends RecyclerView.ViewHolder {
 
-        public TextView tvTest;
+    public TextView tvTest;
 
-        public CommonlyViewHolder(@NonNull View itemView) {
-            super(itemView);
-            this.tvTest = itemView.findViewById(R.id.tv_test);
-        }
+    public CommonlyViewHolder(@NonNull View itemView) {
+        super(itemView);
+        this.tvTest = itemView.findViewById(R.id.tv_test);
     }
+}
