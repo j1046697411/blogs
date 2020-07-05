@@ -198,7 +198,7 @@ WHERE
 &emsp;&emsp;大家看到这儿是不是总觉得还差些什么？生成的sql，总是不能完全满足自己的要求，而且还不能控制多个查询之间的关系。
 对，觉得差就对了，我们还差一个分组查询，能够任意组合我们几个查询之间关系的这么个东西，所以下面就出来了。
 
-### 3、正在厉害的查询 @QueryGroup
+### 3、真正厉害的查询 @QueryGroup 分组查询（不是sql中 groupBy 查询，是把其中几个查询添加合并为一个）
 
 ```java
 @Target(ElementType.TYPE)
@@ -584,4 +584,6 @@ public enum Operator {
 
 ## link
 [作者](https://github.com/j1046697411)   
-[CommonlyAdapter](https://blog.csdn.net/qq_19326641/article/details/106876369) 一个比较实用的Android `RecyclerViewAdapter`  
+[CommonlyAdapter](https://blog.csdn.net/qq_19326641/article/details/106876369) 一个比较实用的Android `RecyclerViewAdapter`   
+[spring-cloud-jpa-helper](https://github.com/j1046697411/blogs/tree/master/springboot/spring-cloud-jpa-helper) 源码所在  
+[csdn 博客地址](https://blog.csdn.net/qq_19326641/article/details/107147117)  
