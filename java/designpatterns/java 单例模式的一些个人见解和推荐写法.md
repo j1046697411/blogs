@@ -148,7 +148,7 @@ public class SingletonApplication extends Application {
     }
 
 
-    public SingletonApplication getInstance(){
+    public static SingletonApplication getInstance(){
         return SingletonApplication.SIN;
     }
 }
@@ -167,3 +167,5 @@ public class SingletonApplication extends Application {
 
 ## links
 [作者](https://github.com/j1046697411/)  
+[java 单例模式的一些个人见解和推荐写法](https://github.com/j1046697411/blogs/blob/master/java/designpatterns/java%20%E5%8D%95%E4%BE%8B%E6%A8%A1%E5%BC%8F%E7%9A%84%E4%B8%80%E4%BA%9B%E4%B8%AA%E4%BA%BA%E8%A7%81%E8%A7%A3%E5%92%8C%E6%8E%A8%E8%8D%90%E5%86%99%E6%B3%95.md)  
+[博客](https://github.com/j1046697411/blogs)  
