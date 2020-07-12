@@ -1,3 +1,4 @@
+
 # 说说对单例模式的简单见解和推荐写法
 
 ## 先说说什么是单例模式吧？
@@ -28,7 +29,7 @@ public class Singleton{
 ```java
 public class Singleton{
     
-    private static final Singleton INSTANCE;
+    private static Singleton INSTANCE;
 
     public static Singleton getInstance(){
         if (INSTANCE == null){
@@ -53,7 +54,7 @@ public class Singleton{
 ```java
 public class Singleton{
 
-    private static final Singleton INSTANCE;
+    private static Singleton INSTANCE;
 
     public static synchronized Singleton getInstance(){
         if (INSTANCE == null){
@@ -75,7 +76,7 @@ public class Singleton{
 ```java
 public class Singleton {
 
-    private static final Singleton INSTANCE;
+    private static Singleton INSTANCE;
 
     public static Singleton getInstance() {
         if (INSTANCE == null) {
@@ -105,12 +106,12 @@ public enum Singleton {
 }
 ```
 
-&emsp;&emsp;优先：和饿汉模式差不多，java的枚举会保证对象的唯一，唯一直接支持序列化的模式  
-&emsp;&emsp;缺点：和饿汉模式呢一样，存在初始化过早和不太确定的问题  
+&emsp;&emsp;优先：java的枚举会保证对象的唯一，唯一直接支持序列化的模式 ，而且还支持串行调用,天生只支持单个对象 
+&emsp;&emsp;缺点：算是没有太大缺点
 &emsp;&emsp;个人见解：还不错的模式吧，比饿汉模式简单  
 &emsp;&emsp;推荐指数：  
-&emsp;&emsp;单线程：★★★☆☆  
-&emsp;&emsp;多线程：★★★★☆
+&emsp;&emsp;单线程：★★★★★   
+&emsp;&emsp;多线程：★★★★★
 
 ### 第六种静态内部类模式
 ```java
